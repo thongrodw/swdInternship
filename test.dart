@@ -9,10 +9,4 @@ class Post extends Equatable {
 
   @override
   List<Object> get props => [id, title, body];
-
-  @override
-  String toString() => 'Post { id: $id }';
 }
-
-git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
